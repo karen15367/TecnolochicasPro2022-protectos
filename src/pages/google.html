@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Theme Simply Me</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Tecnolochicas</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="/inicio">Home</a></li>
+          <li><a href="/about">acerca de mi</a></li>
+          <li class="active"><a href="/google">google</a></li>
+          <li><a href="/calculadora">mi calculadora</a></li>
+        </ul>
+      </div>
+    </nav>
+    <style>
+      .card1 {
+        padding: . 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card2 {
+        padding: . 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .ima {
+        padding: 200px;
+      }
+      div {
+        background: url(https://i.pinimg.com/564x/8b/d7/4d/8bd74d92744b6b2e4b2846b2569c7c02.jpg)
+          beige;
+        /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;*/
+      }
+
+      /*input[type=text] {
+  width: 700px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}*/
+      input[type="text"] {
+        width: 100%;
+        height: 35px;
+        box-sizing: border-box;
+        border: 3px solid #04b4ae;
+        border-radius: 4px;
+        font-size: 18px;
+        background-color: white;
+        transition: width 0.4s ease-in-out;
+      }
+      input[type="text"] {
+        background-color: white;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBlJ28KYwYh0z7OcsPprUEQzf8ekkRZa9kPg&usqp=CAU");
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+      }
+
+      input[type="text"]:focus {
+        width: 700px;
+      }
+
+      input[type="button"],
+      input[type="submit"],
+      input[type="reset"] {
+        background-color: #04b4ae;
+        border: none;
+        color: white;
+        font-size: 16px;
+        padding: 12px 32px;
+        text-decoration: none;
+        margin: 4px 6px;
+        cursor: pointer;
+      }
+    </style>
+    <div class="ima">
+      <div1 Class="card1">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        />
+      </div1>
+      <br />
+      <div2 Class="card2">
+        <form action="http://www.google.com/search" method="get">
+          <input
+            type="text"
+            name="q"
+            placeholder="Haz una búsqueda en Google"
+          />
+          <br />
+          <br />
+          <input type="submit" value="Google search" />
+          <input type="submit" value="I'm feeling lucky" />
+        </form>
+      </div2>
+    </div>
+    <!--<style Class="ima">
+      body {
+          background: url('https://fondosmil.com/fondo/46230.jpg') beige;
+          color: gray;
+          font-size: 3em;
+       }
+      </style>-->
+  </body>
+</html>
